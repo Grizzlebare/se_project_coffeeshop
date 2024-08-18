@@ -113,7 +113,7 @@
   padding: 100px 80px 215px;
 }
 
-.recipe__title {
+.recipes__title {
   max-width: 580px;
   margin: 0 0 24px;
   font-family: "Inter", Arial, sans-serif;
@@ -123,7 +123,7 @@
   line-height: 52px;
 }
 
-.recipe__subtitle {
+.recipes__subtitle {
   max-width: 438px;
   margin: 0 0 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -132,7 +132,7 @@
   font-size: 20px;
   line-height: 30px;
 }
-.recipe__videos {
+.recipes__videos {
   height: 273px;
   width: 480px;
   display: flex;
