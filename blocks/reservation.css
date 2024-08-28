@@ -65,10 +65,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  background-color: #1878dc;
 }
 
 .form__button:hover {
-  background-color: #0056b3;
+  background-color: #3f96f3;
 }
 
 .form__checkbox {

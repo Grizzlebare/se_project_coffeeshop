@@ -34,6 +34,12 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
 }
 
 .nav__logo {
