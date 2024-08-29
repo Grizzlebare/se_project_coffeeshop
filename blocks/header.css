@@ -1,6 +1,6 @@
 .header {
   background-color: #fff;
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   position: relative;
   background-size: cover;
   background-position: center;
@@ -10,6 +10,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__image {
@@ -18,35 +19,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__links {
-  display: flex;
-  list-style-type: none;
-  gap: 20px;
-  padding: 0;
-  margin: 0;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
-
-.nav__link:hover {
-  opacity: 0.5;
-}
-
-.nav__logo {
-  position: relative;
-  left: -50px;
-  width: 105px;
-  height: 39px;
+  z-index: -1;
 }
 
 .header__title {
@@ -88,12 +61,10 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
 
 .header__paragraph {
   margin: 0;
   color: #6f6f6f;
-}
-.header__paragraph_address {
-  align-self: flex-end;
 }

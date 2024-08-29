@@ -1,7 +1,7 @@
 .recipes {
   background-color: #0a2750;
   color: #fff;
-  background-image: url(/images/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,10 @@
   list-style-type: none;
   padding: 0;
 }
-.recipes__iframes {
+.recipes__iframe {
+  border: none;
+  height: 273px;
+  width: 480px;
 }
 
 .video-caption {
