@@ -17,6 +17,7 @@
   opacity: 1;
   transition: opacity 0.3s ease;
   color: #000;
+  text-decoration: none;
 }
 
 .nav__link:hover {

@@ -28,8 +28,6 @@
   line-height: 30px;
 }
 .recipes__videos {
-  height: 273px;
-  width: 480px;
   display: flex;
   justify-content: center;
   gap: 40px;
